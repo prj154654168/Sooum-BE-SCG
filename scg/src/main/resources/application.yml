@@ -1,0 +1,6 @@
+jwt:
+  key: ${JWT_KEY}
+  access:
+    expiration: ${ACCESS_EXP}
+  refresh:
+    expiration: ${REFRESH_EXP}
